@@ -9,6 +9,8 @@ $main-color: rgb(50, 212, 99);
 $accent-color: rgb(55, 74, 243);
 $highlight: rgb(168, 115, 0);
 $paragraph-color: rgb(36, 36, 36);
+$personal-color: rgb(243, 130, 55);
+$enterprise-color: rgb(205, 55, 243);
 
 //FONT VARIABLES
 $header-font: 'Montserrat',
@@ -182,7 +184,10 @@ body {
                         button {
                             @include button-style($accent-color);
                         }
+
+
                     }
+
                 }
             }
         }
