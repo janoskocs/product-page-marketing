@@ -38,6 +38,11 @@ body nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 1.2em;
+}
+
+body nav img {
+  width: 20%;
 }
 
 body #hero {
@@ -88,6 +93,11 @@ body #container #features .features-3-divs {
 body #container #features .features-3-divs .box {
   text-align: center;
   padding: 3em;
+}
+
+body #container #features .features-3-divs .box img {
+  width: 40%;
+  margin-bottom: 1.2em;
 }
 
 body #container #features .features-3-divs .box p, body #container #features .features-3-divs .box a, body #container #features .features-3-divs .box #pricing #price-flexbox .price-container ul li, body #container #pricing #price-flexbox .price-container ul #features .features-3-divs .box li {
@@ -164,45 +174,6 @@ body #container #pricing #price-flexbox .price-container .buy button:hover {
   cursor: pointer;
 }
 
-body #container #built-on-section {
-  text-align: center;
-  padding: 3em;
-}
-
-body #container #built-on-section h3, body #container #built-on-section h4 {
-  margin-bottom: 1.2em;
-}
-
-body #container #built-on-section p, body #container #built-on-section a, body #container #built-on-section #pricing #price-flexbox .price-container ul li, body #container #pricing #price-flexbox .price-container ul #built-on-section li {
-  margin-bottom: 1.2em;
-}
-
-body #container #built-for-devs {
-  background-color: antiquewhite;
-  padding: 3em;
-  text-align: center;
-}
-
-body #container #built-for-devs .sides-flexbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  text-align: left;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-body #container #built-for-devs .sides-flexbox .sides {
-  margin-top: 1.2em;
-}
-
-body #container #built-for-devs .sides-flexbox .sides:nth-child(2) {
-  width: 40%;
-}
-
 body #container #last-cta {
   margin: 3em;
   text-align: center;
@@ -231,6 +202,21 @@ body #container #last-cta button {
 body #container #last-cta button:hover {
   background-color: #fcad00;
   cursor: pointer;
+}
+
+body #container #built-on-section {
+  text-align: center;
+  padding: 3em;
+  background-color: #374af3;
+}
+
+body #container #built-on-section h3, body #container #built-on-section h4 {
+  margin-bottom: 1.2em;
+}
+
+body #container #built-on-section p, body #container #built-on-section a, body #container #built-on-section #pricing #price-flexbox .price-container ul li, body #container #pricing #price-flexbox .price-container ul #built-on-section li {
+  margin-bottom: 1.2em;
+  color: #fff;
 }
 
 body footer {

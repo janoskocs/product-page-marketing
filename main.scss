@@ -74,6 +74,11 @@ body {
     nav {
         display: flex;
         justify-content: space-between;
+        margin-bottom: $low-margin;
+
+        img {
+            width: 20%;
+        }
     }
 
     //NAV
@@ -127,6 +132,11 @@ body {
                 .box {
                     text-align: center;
                     padding: $section-margin;
+
+                    img {
+                        width: 40%;
+                        margin-bottom: $low-margin;
+                    }
 
                     p {
                         margin: $low-margin;
@@ -192,43 +202,10 @@ body {
         }
 
         //PRICING
-        #built-on-section {
-            text-align: center;
-            padding: $section-margin;
 
-            h3 {
-                margin-bottom: $low-margin;
-            }
 
-            p {
-                margin-bottom: $low-margin;
-            }
-        }
 
-        //BUILT-ON-SECTION
-        #built-for-devs {
-            background-color: antiquewhite;
-            padding: $section-margin;
-            text-align: center;
 
-            .sides-flexbox {
-                display: flex;
-                width: 80%;
-                margin: 0 auto;
-                text-align: left;
-                justify-content: space-between;
-
-                .sides {
-                    margin-top: $low-margin;
-                }
-
-                .sides:nth-child(2) {
-                    width: 40%;
-                }
-            }
-        }
-
-        //BUILT-FOR-DEVS
 
         #last-cta {
             margin: $section-margin;
@@ -248,6 +225,24 @@ body {
         }
 
         //LAST-CTA
+
+        #built-on-section {
+            text-align: center;
+            padding: $section-margin;
+            background-color: $accent-color;
+
+
+            h3 {
+                margin-bottom: $low-margin;
+            }
+
+            p {
+                margin-bottom: $low-margin;
+                color: #fff;
+            }
+        }
+
+        //BUILT-ON-SECTION
 
     }
 
